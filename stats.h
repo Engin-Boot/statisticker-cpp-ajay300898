@@ -2,11 +2,11 @@
 
 namespace Statistics {
     class Stats {
-    private:
+    public:
         float average;
         float min;
         float max;
-    public:
+    
         Stats();
         Stats(float avg, float min, float max);
     };
