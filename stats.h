@@ -10,5 +10,5 @@ namespace Statistics {
         Stats();
         Stats(float avg, float min, float max);
     };
-    Stats ComputeStatistics(const std::vector<___>& );
+    Stats ComputeStatistics(const std::vector<float>& );
 }
