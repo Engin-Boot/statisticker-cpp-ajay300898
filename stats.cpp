@@ -1,6 +1,6 @@
 #include "stats.h"
 #include<cmath>
-#define NAN
+
 
 Statistics::Stats::Stats() {}
 Statistics::Stats::Stats(float avg, float min, float max) {
@@ -21,5 +21,5 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& sample) {
         sum += sample[i];
     }
     float avg = sum / sample.size();
-    return Stats(avg, min, max);
+    return Statistics::Stats(avg, min, max);
 }
