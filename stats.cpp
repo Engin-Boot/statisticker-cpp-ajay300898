@@ -9,7 +9,7 @@ Statistics::Stats(float avg, float min, float max) {
     this->min = min;
 }
 
-Stats Statistics::ComputeStatistics(const std::vector<___>& sample) {
+Stats Statistics::ComputeStatistics(const std::vector<float>& sample) {
     
     if (sample.size() == 0) {
         return Stats(NAN,NAN,NAN);
