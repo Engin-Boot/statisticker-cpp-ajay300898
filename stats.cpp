@@ -2,8 +2,8 @@
 #include<cmath>
 #define NAN
 
-Statistics::Stats() {}
-Statistics::Stats(float avg, float min, float max) {
+Statistics::Stats::Stats() {}
+Statistics::Stats::Stats(float avg, float min, float max) {
     this->average = avg;
     this->max = max;
     this->min = min;
