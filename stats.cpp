@@ -1,6 +1,6 @@
 #include "stats.h"
 #include<cmath>
-
+#include<algorithm> 
 
 Statistics::Stats::Stats() {}
 Statistics::Stats::Stats(float avg, float min, float max) {
